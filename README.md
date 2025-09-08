@@ -68,9 +68,77 @@
 
 - [Context Passport](https://github.com/samuelzey/ethglobalcannes) - Digital passport for context portability across AI apps. Full stack on 0G—iNFT minting, smart contracts, oracles, and persona storage.
 
-## Partner and Ecosystem
+- [DARA - Decentralized AI Research Assistant](https://github.com/mohamedwael201193/dara-forge) - Accelerating scientific discovery with verifiable on-chain AI and decentralized infrastructure. Winner - Akindo Wavehack Buildathon.
 
-- [HephAI](https://www.loom.com/share/3ec002c14b1048fbaff2a3de6f7aa89b?sid=940c4a33-6246-4111-8d08-66c11718684e) - Decentralized AI labeling for Provenance Records.
+- [0g Smart Vault](https://github.com/codewizard26/ccipvault) - The next generation vault system. Winner - Akindo Wavehack Buildathon.
+
+- [Agents 0G](https://github.com/JudeTulel/Agent0G.git) - A platform for agent builders to build and rent agents on the 0G AI L1 Blockchain. Winner - Akindo Wavehack Buildathon.
+
+- [0G Galileo Explorer](https://github.com/contango/0g-galileo-explorer) - Complete 0G blockchain explorer with validator tracking, delegation & uptime analysis. Winner - Akindo Wavehack Buildathon.
+
+- [Aishi (愛) - Your Decentralized AI Companion](https://github.com/desu777/Aishi) - Your decentralized digital soul. Evolving on the blockchain to decode your inner world. Winner - Akindo Wavehack Buildathon.
+
+- [Zerogravis (aka Negravis)](https://github.com/oguzhaangumuss/Zer0Gravis) - Negravis is an AI-native oracle where 3 agents verify and deliver Web3 task to smart contracts. Winner - Akindo Wavehack Buildathon.
+
+- [NeuraForge](https://github.com/Raaghav-m/ZeroGuardians) - Own Your AI. Winner - Akindo Wavehack Buildathon.
+
+- [DeSocial](https://github.com/mdos/0g-social) - A fully decentralized, on-chain social media platform built on 0G Chain infrastructure. Winner - Akindo Wavehack Buildathon.
+
+- [Intellify](https://github.com/fmsticks2/intellify) - Winner - Akindo Wavehack Buildathon.
+
+- [0G-Pump](https://github.com/SCARPxVeNOM/0gpumP) - Decentralized Meme Token Trading. Powered by the 0G Tech Stack. (Trade; Create; and Scale). Winner - Akindo Wavehack Buildathon.
+
+- [0G NodeHub](https://github.com/tamago-labs/0g-nodehub) - Managed node infrastructure for 0G with enterprise-grade on AWS. Deploy any node with one click. Winner - Akindo Wavehack Buildathon.
+
+- [iNS](https://github.com/chronogist/iNS-intelligent-name-service) - Winner - Akindo Wavehack Buildathon.
+
+- [0G-Kit](https://github.com/mandatedisrael/0g-kit) - Winner - Akindo Wavehack Buildathon.
+
+- [0gSecura](https://github.com/trooper4l/0gsecura-platform) - 0gSecura is a comprehensive blockchain security platform specifically designed for the 0G. Winner - Akindo Wavehack Buildathon.
+
+- [Pacter](https://github.com/shreyan001/pacter) - Winner - Akindo Wavehack Buildathon.
+
+- [Concierge](https://github.com/M4N4N22/Concierge) - Turn Your Personal Vault into a Smart NFT Agent. Winner - Akindo Wavehack Buildathon.
+
+- [TeeTee](https://github.com/TeeeeeTeeee/TeeTee-v2) - LLM Shatling Across Multiple Verifiable TEE with Decentralized Inference. Winner - Akindo Wavehack Buildathon.
+
+- [Medivet](https://github.com/cosmasken/0g-medivet) - Personal Health Records for everyone. Winner - Akindo Wavehack Buildathon.
+
+- [0Gents MarketPlace](https://github.com/karagozemin/0Gents-Marketplace) - AI-Powered NFT Marketplace on 0G Network. Winner - Akindo Wavehack Buildathon.
+
+- [0G-Data](https://github.com/ayushsingh82/0G-Data) - Building a trusted marketplace for AI agents & datasets, powered by the 0G Network. Winner - Akindo Wavehack Buildathon.
+
+- [Alpaca Trading Pal](https://github.com/WHXiSWH/Alpaca-Trading-Pal) - Mint a generative Alpaca NFT that becomes an autonomous trader on the DeFi gaming platform. Winner - Akindo Wavehack Buildathon.
+
+- [Note3](https://github.com/Amalgam3124/NOTE3) - AI-powered smart contract scanner with instant, transparent security scores on the 0G network. Winner - Akindo Wavehack Buildathon.
+
+- [Credora](https://github.com/SavvySID/Credora) - Privacy first credit intelligence for secure, trusted lending. Winner - Akindo Wavehack Buildathon.
+
+- [Owdit](https://github.com/sfurgapil/owdit) - Winner - Akindo Wavehack Buildathon.
+
+- [MedNexus](https://github.com/adetayaz/mednexus) - Global Medical Intelligence Ecosystem. Winner - Akindo Wavehack Buildathon.
+
+- [0G-Route](https://github.com/darahub/og-route) - Next-gen 0G traffic AI. Navigate new places, predict jams, find faster routes! Winner - Akindo Wavehack Buildathon.
+
+- [0G-AvatarNFT](https://github.com/JZJSt/0G-AvatarNFT.github.io) - Combines 0G Storage and Compute to bring NFTs to life. Winner - Akindo Wavehack Buildathon.
+
+- [Zappmint](https://github.com/Ayushjain2205/zappmint-0g) - Coin your idea into a Zapp. Winner - Akindo Wavehack Buildathon.
+
+- [STACK](https://github.com/Sketchyio/STACK-MOBILE) - Save It. Stack it. Winner - Akindo Wavehack Buildathon.
+
+- [Vispark](https://github.com/sweetim/vispark) - From Chaos to Clarity. Winner - Akindo Wavehack Buildathon.
+
+- [Syncial](https://github.com/ayush035/Syncial) - Your predictions, Our rewards. Winner - Akindo Wavehack Buildathon.
+
+- [0g-wagmi](https://github.com/chomtana/0g-wagmi) - 0G Wagmi React Hooks. Winner - Akindo Wavehack Buildathon.
+
+- [zkSpend](https://github.com/erikancamiz/zkspend) - Private receipt-forward on 0G (Galileo). Foundry contracts + local worker. No PII. Winner - Akindo Wavehack Buildathon.
+
+- [AI Rock-Paper-Scissors on 0G](https://github.com/a1378328591/chatgpt-web-0g) - AI-powered on-chain Rock-Paper-Scissors game. Winner - Akindo Wavehack Buildathon.
+
+- [TripSage](https://github.com/ghostvidro26/0G-AI-Agent) - Your AI companion for every journey. Hassle free planning. Winner - Akindo Wavehack Buildathon.
+
+
 
 ### Technical Blogs
 
