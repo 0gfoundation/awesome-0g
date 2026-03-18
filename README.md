@@ -179,7 +179,7 @@ All posts at [0g.ai/blog](https://0g.ai/blog).
 |---------|------|
 | GitHub | [github.com/0gfoundation](https://github.com/0gfoundation) |
 | Discord | [discord.gg/0glabs](https://discord.gg/0glabs) |
-| Twitter / X | [@0aboretum](https://twitter.com/0G_labs) |
+| Twitter / X | [@0g_labs](https://twitter.com/0G_labs) |
 | Blog | [0g.ai/blog](https://0g.ai/blog) |
 | Docs | [docs.0g.ai](https://docs.0g.ai/) |
 | Build | [build.0g.ai](https://build.0g.ai/) |
