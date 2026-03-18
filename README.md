@@ -1,162 +1,210 @@
-# Awesome 0G [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# 0G Tooling Hub
 
-> A curated list of awesome 0G projects, tools, and resources
+> Your one-stop resource for building on 0G — the first decentralized AI operating system
 
-0G (Zero Gravity) is the first decentralized AI operating system, powering a rapidly growing ecosystem of decentralized AI applications and chains. By combining the fastest, infinitely scalable data availability layer, the most affordable decentralized storage system, and a flexible framework for inferences and finetuning, 0G enables resource-intensive AI applications to run on-chain with unparalleled performance and efficiency.
+0G combines the fastest, infinitely scalable data availability layer, the most affordable decentralized storage system, and a flexible framework for inference and fine-tuning — enabling resource-intensive AI applications to run on-chain with unparalleled performance.
 
 ## Contents
 
-- [dAI Open-Source Applications](#dai-open-source-applications)
-- [Partner and Ecosystem](#partner-and-ecosystem)
-- [Case Studies](#case-studies)
-
-## dAI Open-Source Applications
-
-- [ZgDrive](https://github.com/udhaykumarbala/zgDrive) - A decentralized Google Drive alternative with upload and download functionality. Built with 0G Storage Client (Golang). Winner - Devcon Developer Challenge 2024.
-
-- [Sentinel0](https://github.com/capGoblin/Sentinel0) - A decentralized storage solution integrated with Secret Network's Decentralized Confidential Computing (DeCC) layer. Built with 0G TS-SDK. Winner - Devcon Developer Challenge 2024.
-
-- [0g-identity-vault](https://github.com/Raaghav-m/0g-identity-vault) - Identity management where users can upload and store their personal information. Built with 0G TS-SDK.
-
-- [Decentral-ai-hub](https://github.com/Jovian-Dsouza/decentral-ai-hub) - Datasets Storage Marketplace. Built with 0G TS-SDK.
-
-- [EchoX](https://dorahacks.io/buidl/20733) - Cross-Chain dAI Agent Trading Aggregator. Built with 0G Serving SDK. Performs swaps between chains with natural language input using a llama model.
-
-- [DeCentraChat](https://dorahacks.io/buidl/20714) - AI Inference Marketplace with Chat UI. Built with 0G Serving SDK. A marketplace with a chat interface for AI inferences.
-
-- [Care-AI](https://github.com/lovish888/care-ai) - Decentralized AI-powered support agent SDK for businesses. Built with 0G Storage. Winner - ETHGlobal Trifecta 2025.
-
-- [Battle AI](https://github.com/Bhavik-punmiya/ethglobal-trifeacta) - Battle AI models in a decentralized, trustless arena—where privacy meets competition! Built with 0G Storage. Winner - ETHGlobal Trifecta 2025.
-
-- [Clampify.fun](https://github.com/vmmuthu31/Clampify.fun) - Rugproof meme tokens using TEE-secured launches, gasless flow & smart safeguards. Built with 0G Storage. Winner - ETHGlobal Trifecta 2025.
-
-- [abroOS](https://github.com/sagarjethi/abroOS) - An interactive, web-based desktop operating system environment built with TEE and AI agent. Built with 0G Storage.
-
-- [OGxbt](https://github.com/chain-l/trifecta) - Verifies crypto signals with AI analytics and on-chain proof using the 0G Network stack. Built with 0G Compute. Winner - ETHGlobal Trifecta 2025.
-
-- [0GChat](https://github.com/0Gchat/0GChat) - Decentralized Workplace Communication Platform. Winner - TinTinLand AI Agent Hackathon.
-
-- [Swimming Coach](https://github.com/jjqk/eliza/tree/develop) - AI-powered swimming coach agent using 0G eliza plugin for file upload. Winner - TinTinLand AI Agent Hackathon.
-
-- [LinguaBridge](https://github.com/redstone-network/LinguaBridge) - Decentralized translation enhancement system combining ElizaOS multi-agent framework with 0G blockchain protocol.  Winner - TinTinLand AI Agent Hackathon.
-
-- [AnyCreative](https://github.com/aiqubits/any-creative) - AI Agent-driven Telegram bot providing interaction with the 0G network on Phala-cloud's TEE environment. Winner - TinTinLand AI Agent Hackathon.
-
-- [0G Gateway](https://github.com/longcipher/0g-gateway) - OpenAI compatible API gateway connecting 0G Serving Broker. Winner - TinTinLand AI Agent Hackathon.
-
-- [AInfluencer](https://github.com/QualiPe/ai-influencer) - Autonomous on-chain AI-Influencer that creates and uploads YouTube videos based on subscribers' wishes. All prompt generation routed through 0G Compute; leverages zk-proof-backed results for transparency and trust. Winner - ETHGlobal Cannes 2025.
-
-- [PrivyCycle](https://github.com/PrivyCycle/dapp) - Decentralized period tracker with user-owned data, private sharing, and AI-driven insights. Provides doctor and partner recommendations based on 0G compute. Winner - ETHGlobal Cannes 2025.
-
-- [Warriors AI-rena](https://github.com/yug49/WarriorsAI-rena) - Blockchain-based battle arena game. 0G Compute for battle decisions, 0G Storage for decentralized metadata storage. Implemented a basic version of iNFT. Winner - ETHGlobal Cannes 2025.
-
-- [Solidity Cell](https://github.com/Riki0923/SolidityCell) - Escape room meets Solidity—players solve puzzles using Hardhat, subgraphs, and 0G AI. 0G provides in-game assistance for players struggling with puzzles.
-
-- [Braivo](https://github.com/toukoum/braivo) - Decentralized image storage, leveraging 0G Storage. Utilizes 0G storage protocol for secure and verifiable image storage.
-
-- [Negravis](https://github.com/Drehalas/Negravis) - AI-native oracle using three agents to verify and deliver real-world data to smart contracts. Built with 0G Compute TypeScript SDK Starter Kit; LLM agents for data verification.
-
-- [Block Survivor](https://github.com/npanium/block-survivor-api) - Top-down 2D bullet hell survival game based on blockchain development experience. Uses 0G Compute Network for real-time, adaptive AI inference to adjust game difficulty based on player behavior.
-
-- [SparkMind](https://github.com/franconicola/ethcannes) - AI tutors for kids with verifiable data using Zero Gravity. Verifiable database for AI tutor interactions.
-
-- [FairBnb](https://github.com/aloksahay/fairbnb) - Decentralized app for verified property listings using zkProofs of ownership. Uses ZeroG for both storage and compute; ownership verification LLAMA models.
-
-- [TrueCast](https://github.com/moabid42/TrueCast) - Decentralized AI news platform with fact verification via code, community votes, and whistleblowers. Uses 0G compute SDK and deepseek AI for fact-checking and scoring articles.
-
-- [ContractObituarie](https://github.com/ErankiAditya8072/contract-obituarie) - Analyzes smart contracts using 0G Compute and provides a user-friendly UI. 0G compute analyzes contract status; descriptions stored on 0G Storage.
-
-- [Context Passport](https://github.com/samuelzey/ethglobalcannes) - Digital passport for context portability across AI apps. Full stack on 0G—iNFT minting, smart contracts, oracles, and persona storage.
-
-- [DARA - Decentralized AI Research Assistant](https://github.com/mohamedwael201193/dara-forge) - Accelerating scientific discovery with verifiable on-chain AI and decentralized infrastructure. Winner - Akindo Wavehack Buildathon.
-
-- [0g Smart Vault](https://github.com/codewizard26/ccipvault) - The next generation vault system. Winner - Akindo Wavehack Buildathon.
-
-- [Agents 0G](https://github.com/JudeTulel/Agent0G.git) - A platform for agent builders to build and rent agents on the 0G AI L1 Blockchain. Winner - Akindo Wavehack Buildathon.
-
-- [0G Galileo Explorer](https://github.com/contango/0g-galileo-explorer) - Complete 0G blockchain explorer with validator tracking, delegation & uptime analysis. Winner - Akindo Wavehack Buildathon.
-
-- [Aishi (愛) - Your Decentralized AI Companion](https://github.com/desu777/Aishi) - Your decentralized digital soul. Evolving on the blockchain to decode your inner world. Winner - Akindo Wavehack Buildathon.
-
-- [Zerogravis (aka Negravis)](https://github.com/oguzhaangumuss/Zer0Gravis) - Negravis is an AI-native oracle where 3 agents verify and deliver Web3 task to smart contracts. Winner - Akindo Wavehack Buildathon.
-
-- [NeuraForge](https://github.com/Raaghav-m/ZeroGuardians) - Own Your AI. Winner - Akindo Wavehack Buildathon.
-
-- [DeSocial](https://github.com/mdos/0g-social) - A fully decentralized, on-chain social media platform built on 0G Chain infrastructure. Winner - Akindo Wavehack Buildathon.
-
-- [Intellify](https://github.com/fmsticks2/intellify) - Winner - Akindo Wavehack Buildathon.
-
-- [0G-Pump](https://github.com/SCARPxVeNOM/0gpumP) - Decentralized Meme Token Trading. Powered by the 0G Tech Stack. (Trade; Create; and Scale). Winner - Akindo Wavehack Buildathon.
-
-- [0G NodeHub](https://github.com/tamago-labs/0g-nodehub) - Managed node infrastructure for 0G with enterprise-grade on AWS. Deploy any node with one click. Winner - Akindo Wavehack Buildathon.
-
-- [iNS](https://github.com/chronogist/iNS-intelligent-name-service) - Winner - Akindo Wavehack Buildathon.
-
-- [0G-Kit](https://github.com/mandatedisrael/0g-kit) - Winner - Akindo Wavehack Buildathon.
-
-- [0gSecura](https://github.com/trooper4l/0gsecura-platform) - 0gSecura is a comprehensive blockchain security platform specifically designed for the 0G. Winner - Akindo Wavehack Buildathon.
-
-- [Pacter](https://github.com/shreyan001/pacter) - Winner - Akindo Wavehack Buildathon.
-
-- [Concierge](https://github.com/M4N4N22/Concierge) - Turn Your Personal Vault into a Smart NFT Agent. Winner - Akindo Wavehack Buildathon.
-
-- [TeeTee](https://github.com/TeeeeeTeeee/TeeTee-v2) - LLM Shatling Across Multiple Verifiable TEE with Decentralized Inference. Winner - Akindo Wavehack Buildathon.
-
-- [Medivet](https://github.com/cosmasken/0g-medivet) - Personal Health Records for everyone. Winner - Akindo Wavehack Buildathon.
-
-- [0Gents MarketPlace](https://github.com/karagozemin/0Gents-Marketplace) - AI-Powered NFT Marketplace on 0G Network. Winner - Akindo Wavehack Buildathon.
-
-- [0G-Data](https://github.com/ayushsingh82/0G-Data) - Building a trusted marketplace for AI agents & datasets, powered by the 0G Network. Winner - Akindo Wavehack Buildathon.
-
-- [Alpaca Trading Pal](https://github.com/WHXiSWH/Alpaca-Trading-Pal) - Mint a generative Alpaca NFT that becomes an autonomous trader on the DeFi gaming platform. Winner - Akindo Wavehack Buildathon.
-
-- [Note3](https://github.com/Amalgam3124/NOTE3) - AI-powered smart contract scanner with instant, transparent security scores on the 0G network. Winner - Akindo Wavehack Buildathon.
-
-- [Credora](https://github.com/SavvySID/Credora) - Privacy first credit intelligence for secure, trusted lending. Winner - Akindo Wavehack Buildathon.
-
-- [Owdit](https://github.com/sfurgapil/owdit) - Winner - Akindo Wavehack Buildathon.
-
-- [MedNexus](https://github.com/adetayaz/mednexus) - Global Medical Intelligence Ecosystem. Winner - Akindo Wavehack Buildathon.
-
-- [0G-Route](https://github.com/darahub/og-route) - Next-gen 0G traffic AI. Navigate new places, predict jams, find faster routes! Winner - Akindo Wavehack Buildathon.
-
-- [0G-AvatarNFT](https://github.com/JZJSt/0G-AvatarNFT.github.io) - Combines 0G Storage and Compute to bring NFTs to life. Winner - Akindo Wavehack Buildathon.
-
-- [Zappmint](https://github.com/Ayushjain2205/zappmint-0g) - Coin your idea into a Zapp. Winner - Akindo Wavehack Buildathon.
-
-- [STACK](https://github.com/Sketchyio/STACK-MOBILE) - Save It. Stack it. Winner - Akindo Wavehack Buildathon.
-
-- [Vispark](https://github.com/sweetim/vispark) - From Chaos to Clarity. Winner - Akindo Wavehack Buildathon.
-
-- [Syncial](https://github.com/ayush035/Syncial) - Your predictions, Our rewards. Winner - Akindo Wavehack Buildathon.
-
-- [0g-wagmi](https://github.com/chomtana/0g-wagmi) - 0G Wagmi React Hooks. Winner - Akindo Wavehack Buildathon.
-
-- [zkSpend](https://github.com/erikancamiz/zkspend) - Private receipt-forward on 0G (Galileo). Foundry contracts + local worker. No PII. Winner - Akindo Wavehack Buildathon.
-
-- [AI Rock-Paper-Scissors on 0G](https://github.com/a1378328591/chatgpt-web-0g) - AI-powered on-chain Rock-Paper-Scissors game. Winner - Akindo Wavehack Buildathon.
-
-- [TripSage](https://github.com/ghostvidro26/0G-AI-Agent) - Your AI companion for every journey. Hassle free planning. Winner - Akindo Wavehack Buildathon.
-
-
-
-### Technical Blogs
-
-- [Introducing 0G’s V3 Testnet: Galileo](https://0g.ai/blog/introducing-v3-testnet-galileo)
-- [Forging the Future of Onchain AI: 0G’s Latest Hackathon Highlights](https://0g.ai/blog/0g-latest-hackathon-highlights)
-- [Revolutionizing AI Fine-Tuning with the 0G Compute Network](https://0g.ai/blog/ai-fine-tuning-with-0g-compute)
-- [Introducing 0G’s V3 Testnet: Galileo](https://0g.ai/blog/introducing-v3-testnet-galileo)
+- [Getting Started](#getting-started)
+- [SDKs & Libraries](#sdks--libraries)
+- [Starter Kits](#starter-kits)
+- [Developer Tools](#developer-tools)
+- [RPC & Infrastructure Providers](#rpc--infrastructure-providers)
+- [Documentation Reference](#documentation-reference)
+- [AI & Zero-Code Tools](#ai--zero-code-tools)
+- [Technical Blogs](#technical-blogs)
+- [Tutorials](#tutorials)
+- [Community & Links](#community--links)
+- [Contributing](#contributing)
+
+---
+
+## Getting Started
+
+| Resource | Link |
+|----------|------|
+| Documentation | [docs.0g.ai](https://docs.0g.ai/) |
+| Builder Hub | [build.0g.ai](https://build.0g.ai/) |
+| Testnet Faucet | [faucet.0g.ai](https://faucet.0g.ai/) |
+| Chain Scan (Testnet) | [chainscan-galileo.0g.ai](https://chainscan-galileo.0g.ai/) |
+| Chain Scan (Mainnet) | [chainscan.0g.ai](https://chainscan.0g.ai/) |
+| Storage Scan (Testnet) | [storagescan-galileo.0g.ai](https://storagescan-galileo.0g.ai/) |
+
+### Testnet Configuration (Galileo)
+
+| Parameter | Value |
+|-----------|-------|
+| Network Name | 0G-Galileo-Testnet |
+| Chain ID | `16601` |
+| RPC Endpoint | `http://evmrpc-testnet.0g.ai` |
+| Token Symbol | OG |
+| Explorer | [chainscan-galileo.0g.ai](https://chainscan-galileo.0g.ai/) |
+
+### Mainnet Configuration (Aristotle)
+
+| Parameter | Value |
+|-----------|-------|
+| Network Name | 0G-Aristotle |
+| Chain ID | `16661` |
+| RPC Endpoint | `https://evmrpc.0g.ai` |
+| Token Symbol | OG |
+| Explorer | [chainscan.0g.ai](https://chainscan.0g.ai/) |
+
+## SDKs & Libraries
+
+| SDK | Language | Install | Docs / Repo |
+|-----|----------|---------|-------------|
+| 0G TypeScript SDK | TypeScript | `npm install @0glabs/0g-ts-sdk` | [GitHub](https://github.com/0glabs/0g-ts-sdk) · [npm](https://www.npmjs.com/package/@0glabs/0g-ts-sdk) |
+| 0G Foundation TS SDK | TypeScript | `npm install @0gfoundation/0g-ts-sdk` | [GitHub](https://github.com/0gfoundation/0g-ts-sdk) · [npm](https://www.npmjs.com/package/@0gfoundation/0g-ts-sdk) |
+| 0G Storage Client | Go | `go get github.com/0glabs/0g-storage-client` | [GitHub](https://github.com/0glabs/0g-storage-client) · [pkg.go.dev](https://pkg.go.dev/github.com/0glabs/0g-storage-client) |
+| python-0g | Python | `pip install python-0g` | [GitHub](https://github.com/DormintLab/python-0g) · [PyPI](https://pypi.org/project/python-0g/) |
+| 0G Chain | Go (Cosmos + Ethermint) | — | [GitHub](https://github.com/0glabs/0g-chain) |
+
+## Starter Kits
+
+| Kit | Stack | Repo |
+|-----|-------|------|
+| Compute TypeScript Starter Kit | Express, ethers v6, Swagger | [0gfoundation/0g-compute-ts-starter-kit](https://github.com/0gfoundation/0g-compute-ts-starter-kit) |
+| Storage Web Starter Kit | Next.js, React, drag-and-drop upload | [0glabs/0g-storage-web-starter-kit](https://github.com/0glabs/0g-storage-web-starter-kit) |
+| Storage TypeScript Starter Kit | Express, Swagger, CLI tools | [0glabs/0g-storage-ts-starter-kit](https://github.com/0glabs/0g-storage-ts-starter-kit) |
+| Storage Go Starter Kit | Gin, Swagger, CLI | [0glabs/0g-storage-go-starter-kit](https://github.com/0glabs/0g-storage-go-starter-kit) |
+
+## Developer Tools
+
+| Tool | Description | Link |
+|------|-------------|------|
+| Storage CLI | Upload, download, encrypt files (AES-256-CTR), key-value ops | [GitHub](https://github.com/0glabs/0g-storage-client) |
+| Testnet Faucet | Get testnet OG tokens | [faucet.0g.ai](https://faucet.0g.ai/) |
+| Storage Scan (Galileo) | File tracking, upload tools, miner info | [storagescan-galileo.0g.ai](https://storagescan-galileo.0g.ai/) |
+| Chain Scan (Testnet) | Galileo testnet block explorer | [chainscan-galileo.0g.ai](https://chainscan-galileo.0g.ai/) |
+| Chain Scan (Mainnet) | Aristotle mainnet block explorer | [chainscan.0g.ai](https://chainscan.0g.ai/) |
+| Validator Dashboard | Validator tracking, delegation & uptime | [0g.exploreme.pro/validators](https://0g.exploreme.pro/validators) |
+
+## RPC & Infrastructure Providers
+
+| Provider | Links |
+|----------|-------|
+| QuickNode | [Docs](https://www.quicknode.com/docs/0g) · [Chain Page](https://www.quicknode.com/chains/0g) |
+| ThirdWeb | [Mainnet](https://thirdweb.com/0g-aristotle) · [Galileo Testnet](https://thirdweb.com/0g-galileo-testnet-16601) |
+| Ankr | [RPC Service](https://www.ankr.com/rpc/0g/) |
+| dRPC | [Chain Page](https://drpc.org/chainlist/0g-mainnet-rpc) |
+
+## Documentation Reference
+
+Organized by product area — all hosted at [docs.0g.ai](https://docs.0g.ai/).
+
+### 0G Chain
+- Deploying smart contracts (Solidity — use `evmVersion: "cancun"`)
+- Staking & delegation
+- Precompiles
+
+### 0G Storage
+- Storage CLI usage
+- Go SDK integration
+- TypeScript SDK integration
+- Architecture deep dive
+
+### 0G Compute
+- On-chain inference
+- Fine-tuning workflows
+- Provider setup & marketplace
+- Serving Broker SDK
+
+### 0G DA (Data Availability)
+- DA deep dive & architecture
+- Integration guide
+- Rollup integrations: OP Stack, Arbitrum Nitro, Caldera
+
+### INFT (ERC-7857)
+- Overview & specification
+- Integration guide
+
+### Node Operations
+- Validator node setup
+- DA node setup
+- Storage node setup
+- Archival node setup
+
+### Rollups & Appchains
+- OP Stack integration
+- Arbitrum Nitro integration
+- Caldera RaaS
+
+### AVS Integrations
+- EigenLayer AVS
+- Babylon AVS
+
+## AI & Zero-Code Tools
+
+| Tool | Description | Link |
+|------|-------------|------|
+| 0G Agent Skills | AI-assisted 0G development for Cursor IDE (14 skills, multi-IDE) | [GitHub](https://github.com/0gfoundation/0g-agent-skills) |
+| 0G Blockchain MCP Server | Model Context Protocol server for 0G chain operations | [GitHub](https://github.com/colygon/0g-mcp-server) |
+| 0G Chain MCP | MCP server for blockchain interactions | [GitHub](https://github.com/Tairon-ai/0g-chain-mcp) |
+| Prompt Templates | Storage patterns, Solidity contracts, inference, DA integration | Bundled in [0g-agent-skills](https://github.com/0gfoundation/0g-agent-skills) |
+
+## Technical Blogs
+
+All posts at [0g.ai/blog](https://0g.ai/blog).
+
+### Architecture & Deep Dives
+- [0G Deep Dive: Unpacking the World's First AI-Native L1](https://0g.ai/blog)
+- [Navigating 0G's Tech: An Update On The Latest in 0G's Products](https://0g.ai/blog/navigating-0g-s-tech-an-update-on-the-latest-in-0g-s-products)
 - [True AI Ownership vs API Access: Returning Power to the Builders](https://0g.ai/blog/ai-ownership-vs-api-access)
+
+### Performance
+- [Breaking Barriers: 0G Hits 11,000 TPS with Parallel Consensus per Shard](https://0g.ai/blog)
+
+### Data Availability
+- [How Does 0G DA Compare to Celestia and EigenLayer?](https://0g.ai/blog)
+- [The Evolution of Data Availability in Blockchain](https://0g.ai/blog)
+
+### Storage & Compute
+- [0G Storage: Built for the AI Era](https://0g.ai/blog)
+- [Revolutionizing AI Fine-Tuning with the 0G Compute Network](https://0g.ai/blog/ai-fine-tuning-with-0g-compute)
+- [GLM-5 on 0G Compute: 744B Open-Source AI, Zero Data Logging](https://0g.ai/blog)
+- [Beyond Centralized Limits: First Globally Distributed 100B+ Parameter AI Model](https://0g.ai/blog)
+
+### Security
+- [0G Tapp: Securing TEE Deployments Without SSH](https://0g.ai/blog)
+
+### Developer Guides
+- [Building Decentralized AI? Here's Why 0G Should Be Part of Your Stack](https://0g.ai/blog/partial-0g-deployment)
+- [Introducing 0G's V3 Testnet: Galileo](https://0g.ai/blog/introducing-v3-testnet-galileo)
 - [AI Evolution: How Intelligent Agents Will Learn, Adapt, and Compete in Web3](https://0g.ai/blog/how-ai-will-adapt-in-web3)
-- [Building Decentralized AI? Here’s Why 0G Should Be Part of Your Stack](https://0g.ai/blog/partial-0g-deployment)
 - [Guild on 0G: A New Frontier for Decentralized AI Builders](https://0g.ai/blog/guild-on-0g)
-- [Navigating 0G’s Tech: An Update On The Latest in 0G’s Products](https://0g.ai/blog/navigating-0g-s-tech-an-update-on-the-latest-in-0g-s-products)
+- [Forging the Future of Onchain AI: 0G's Latest Hackathon Highlights](https://0g.ai/blog/0g-latest-hackathon-highlights)
+
+## Tutorials
+
+Hosted at [build.0g.ai](https://build.0g.ai/).
+
+- **Storage 101** — Introduction to decentralized storage on 0G
+- **Compute Network 101** — Getting started with on-chain inference
+- **Starter Kit Walkthroughs** — Step-by-step guides for each starter kit
+- **iNFT / ERC-7857 Tutorials** — Minting and integrating intelligent NFTs
+- **Developer Bootcamp** — 5-part series covering the full 0G stack
+- **Partner Sessions** — Integrations with Goldsky, Euclid, and more
+
+## Community & Links
+
+| Channel | Link |
+|---------|------|
+| GitHub | [github.com/0glabs](https://github.com/0glabs) · [github.com/0gfoundation](https://github.com/0gfoundation) |
+| Discord | [discord.gg/0glabs](https://discord.gg/0glabs) |
+| Twitter / X | [@0aboretum](https://twitter.com/0G_labs) |
+| Blog | [0g.ai/blog](https://0g.ai/blog) |
+| Docs | [docs.0g.ai](https://docs.0g.ai/) |
+| Build | [build.0g.ai](https://build.0g.ai/) |
+| Website | [0g.ai](https://0g.ai) |
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on how to contribute to this list.
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on how to contribute to this hub.
+
+---
 
 To the extent possible under law, the author has waived all copyright and related or neighboring rights to this work.
 
 [![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
-
