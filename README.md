@@ -95,45 +95,44 @@
 Organized by product area — all hosted at [docs.0g.ai](https://docs.0g.ai/).
 
 ### 0G Chain
-- Deploying smart contracts (Solidity — use `evmVersion: "cancun"`)
-- Staking & delegation
-- Precompiles
+- [Deploy Contracts on 0G Chain](https://docs.0g.ai/developer-hub/building-on-0g/contracts-on-0g/deploy-contracts) (Solidity — use `evmVersion: "cancun"`)
+- [Staking Interfaces](https://docs.0g.ai/developer-hub/building-on-0g/contracts-on-0g/staking-interfaces)
+- [Validator Contract Functions](https://docs.0g.ai/developer-hub/building-on-0g/contracts-on-0g/validator-contract-functions)
+- [Precompiles Overview](https://docs.0g.ai/developer-hub/building-on-0g/contracts-on-0g/precompiles/precompiles-overview)
+- [Indexing with Goldsky](https://docs.0g.ai/developer-hub/building-on-0g/indexing/goldsky)
 
 ### 0G Storage
-- Storage CLI usage
-- Go SDK integration
-- TypeScript SDK integration
-- Architecture deep dive
+- [Storage SDK](https://docs.0g.ai/developer-hub/building-on-0g/storage/sdk)
+- [Storage CLI](https://docs.0g.ai/developer-hub/building-on-0g/storage/storage-cli)
+- [Storage Architecture](https://docs.0g.ai/concepts/storage)
 
 ### 0G Compute
-- On-chain inference
-- Fine-tuning workflows
-- Provider setup & marketplace
-- Serving Broker SDK
+- [Compute Network Overview](https://docs.0g.ai/developer-hub/building-on-0g/compute-network/overview)
+- [On-chain Inference](https://docs.0g.ai/developer-hub/building-on-0g/compute-network/inference)
+- [Fine-tuning](https://docs.0g.ai/developer-hub/building-on-0g/compute-network/fine-tuning)
+- [Account Management](https://docs.0g.ai/developer-hub/building-on-0g/compute-network/account-management)
+- [Provider Setup](https://docs.0g.ai/developer-hub/building-on-0g/compute-network/inference-provider)
 
 ### 0G DA (Data Availability)
-- DA deep dive & architecture
-- Integration guide
-- Rollup integrations: OP Stack, Arbitrum Nitro, Caldera
+- [DA Deep Dive](https://docs.0g.ai/developer-hub/building-on-0g/da-deep-dive)
+- [DA Integration Guide](https://docs.0g.ai/developer-hub/building-on-0g/da-integration)
 
 ### INFT (ERC-7857)
-- Overview & specification
-- Integration guide
+- [INFT Overview](https://docs.0g.ai/developer-hub/building-on-0g/inft/inft-overview)
+- [Integration Guide](https://docs.0g.ai/developer-hub/building-on-0g/inft/integration)
+- [ERC-7857 Standard](https://docs.0g.ai/developer-hub/building-on-0g/inft/erc7857)
 
 ### Node Operations
-- Validator node setup
-- DA node setup
-- Storage node setup
-- Archival node setup
+- [Overview](https://docs.0g.ai/run-a-node/overview)
+- [Validator Node](https://docs.0g.ai/run-a-node/validator-node)
+- [Storage Node](https://docs.0g.ai/run-a-node/storage-node)
+- [DA Node](https://docs.0g.ai/run-a-node/da-node)
+- [Archival Node](https://docs.0g.ai/run-a-node/archival-node)
+- [Community Docker Repo](https://docs.0g.ai/run-a-node/community-docker-repo)
 
 ### Rollups & Appchains
-- OP Stack integration
-- Arbitrum Nitro integration
-- Caldera RaaS
-
-### AVS Integrations
-- EigenLayer AVS
-- Babylon AVS
+- [OP Stack on 0G DA](https://docs.0g.ai/developer-hub/building-on-0g/rollups-and-appchains/op-stack-on-0g-da)
+- [Arbitrum Nitro on 0G DA](https://docs.0g.ai/developer-hub/building-on-0g/rollups-and-appchains/arbitrum-nitro-on-0g-da)
 
 ## AI & Zero-Code Tools
 
@@ -178,14 +177,40 @@ All posts at [0g.ai/blog](https://0g.ai/blog).
 
 ## Tutorials
 
-Hosted at [build.0g.ai](https://build.0g.ai/).
+Hosted at [build.0g.ai/tutorials](https://build.0g.ai/tutorials/).
 
-- **Storage 101** — Introduction to decentralized storage on 0G
-- **Compute Network 101** — Getting started with on-chain inference
-- **Starter Kit Walkthroughs** — Step-by-step guides for each starter kit
-- **iNFT / ERC-7857 Tutorials** — Minting and integrating intelligent NFTs
-- **Developer Bootcamp** — 5-part series covering the full 0G stack
-- **Partner Sessions** — Integrations with Goldsky, Euclid, and more
+### Getting Started
+- [Intro to 0G Ecosystem](https://youtube.com/watch?v=gCgMSa3nzv0)
+- [0G Storage 101](https://youtube.com/watch?v=G1ea42zaxnE)
+- [0G Storage 101 - Quick Guide](https://youtube.com/watch?v=fF4G3BjU2dI)
+- [0G Compute Network 101](https://youtube.com/watch?v=bSCLDm7EETg)
+- [Hands-on Starter Kits 101](https://youtube.com/watch?v=2n2PG1lYDzE)
+
+### Workshops
+- [ETHGlobal Cannes Workshop: Building with 0G Storage and Compute](https://youtube.com/watch?v=LxcV-DGmNLs)
+- [0G's WaveHack: $50K Grant Buildathon Kickoff & Workshop](https://youtube.com/watch?v=pTd0NuPGj7A)
+
+### iNFT / ERC-7857
+- [0G iNFT: Tokenizing AI Agents (ERC-7857)](https://youtube.com/watch?v=Vo_z6ruKmyo)
+
+### Partner Sessions
+- [0G & Goldsky: Indexing and Streaming 0G Data](https://youtube.com/watch?v=nCn3atlqkpk)
+- [0G & Euclid: Cross-chain Liquidity Infrastructure](https://youtube.com/watch?v=BGgSgXaWRzI)
+- [0G & BAD AI: Build AI Agents with BAD Chaingraph](https://youtube.com/watch?v=2aUYuOdlEnE)
+- [0G & NODERS: Professional Validators & Web3 Developers](https://youtube.com/watch?v=GMcisvyoEm4)
+- [0G & SocialScan: Community Owned AI](https://youtube.com/watch?v=b9NOpg-Wk9g)
+- [0G & Gevulot: ZkCloud](https://youtube.com/watch?v=6Z4ENUBs4pE)
+- [0G & PublicAI: AI Data Infrastructure](https://youtube.com/watch?v=J3bWRC7i214)
+- [0G & Pond: Crypto's Foundation Model](https://youtube.com/watch?v=DefB06HS_SU)
+- [0G & Assisterr: Network of SLM](https://youtube.com/watch?v=h25Ks3uCvpI)
+- [0G & Talus Network: AI Agent Hub](https://youtube.com/watch?v=UGZ7I36SpLk)
+
+### Developer Bootcamp (5-part series)
+- [Office Hour 1](https://youtube.com/watch?v=0bxhGX3c_Fc)
+- [Office Hour 2](https://youtube.com/watch?v=sWqdtn5pFoM)
+- [Office Hour 3](https://youtube.com/watch?v=btUbgGjYGeU)
+- [Office Hour 4](https://youtube.com/watch?v=nzsE1ekY44Y)
+- [Office Hour 5](https://youtube.com/watch?v=EhEJcxqEKrA)
 
 ## Community & Links
 
