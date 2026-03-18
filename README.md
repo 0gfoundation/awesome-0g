@@ -1,8 +1,8 @@
-# 0G Tooling Hub
+# Awesome 0G [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> Your one-stop resource for building on 0G — the first decentralized AI operating system
+> A curated list of awesome 0G projects, tools, and resources
 
-0G combines the fastest, infinitely scalable data availability layer, the most affordable decentralized storage system, and a flexible framework for inference and fine-tuning — enabling resource-intensive AI applications to run on-chain with unparalleled performance.
+0G (Zero Gravity) is the first decentralized AI operating system, powering a rapidly growing ecosystem of decentralized AI applications and chains. By combining the fastest, infinitely scalable data availability layer, the most affordable decentralized storage system, and a flexible framework for inferences and finetuning, 0G enables resource-intensive AI applications to run on-chain with unparalleled performance and efficiency.
 
 ## Contents
 
