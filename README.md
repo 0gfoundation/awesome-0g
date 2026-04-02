@@ -78,6 +78,7 @@
 | Chain Scan (Testnet) | Galileo testnet block explorer | [chainscan-galileo.0g.ai](https://chainscan-galileo.0g.ai/) |
 | Chain Scan (Mainnet) | Aristotle mainnet block explorer | [chainscan.0g.ai](https://chainscan.0g.ai/) |
 | Validator Dashboard | Validator tracking, delegation & uptime | [0g.exploreme.pro/validators](https://0g.exploreme.pro/validators) |
+| Zerion API | Wallet data API — token balances, DeFi positions, and transaction history on 0G | [Docs](https://developers.zerion.io) · [API Keys](https://zerion.io/api) |
 
 ## RPC & Infrastructure Providers
 
