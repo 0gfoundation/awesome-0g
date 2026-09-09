@@ -87,6 +87,7 @@
 | ThirdWeb | [Mainnet](https://thirdweb.com/0g-aristotle) · [Galileo Testnet](https://thirdweb.com/0g-galileo-testnet-16601) |
 | Ankr | [RPC Service](https://www.ankr.com/rpc/0g/) |
 | dRPC | [Chain Page](https://drpc.org/chainlist/0g-mainnet-rpc) |
+| node101 | [0G RPC and dedicated nodes](https://node101.io/en/rpc/zerogravity) |
 
 ## Documentation Reference
 
