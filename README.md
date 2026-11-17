@@ -87,6 +87,7 @@
 | ThirdWeb | [Mainnet](https://thirdweb.com/0g-aristotle) · [Galileo Testnet](https://thirdweb.com/0g-galileo-testnet-16601) |
 | Ankr | [RPC Service](https://www.ankr.com/rpc/0g/) |
 | dRPC | [Chain Page](https://drpc.org/chainlist/0g-mainnet-rpc) |
+| RouteMesh | [0G Mainnet](https://routeme.sh/chain/evm/16661-0g-mainnet) · [USD pay-as-you-go pricing](https://routeme.sh/pricing) |
 
 ## Documentation Reference
 
